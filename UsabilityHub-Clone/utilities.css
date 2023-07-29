@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 1.5vw;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.no_hover {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.hover {
+    list-style: none;
+    text-decoration: none;
+    transition: .2s ease-out;
+}
+
+.hover:hover {
+    color: #2294ed;
+}
+
+.empty {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    border-radius: 6px;
+    border: 0.5px solid var(--secondary-text-color);
+    padding: 1vw 2vw;
+    font-weight: 500;
+    transition: .2s ease-out;
+}
+
+.empty:hover {
+    color: var(--accent-color);
+    border-color: #2294ed;
+}
+
+.filled {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    background-color: #2294ed;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 0.5px solid;
+    padding: 1vw 2vw;
+    font-weight: 500;
+    transition: .2s ease-out;
+}
+
+.filled:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.content_image img {
+    width: 50vw;
+}
+
+h1 {
+    font-size: 4vw;
+    color: var(--primary-text-color);
+}
+
+h2 {
+    font-size: 3vw;
+    color: var(--primary-text-color);
+}
+
+h3 {
+    font-size: 2vw;
+    color: var(--primary-text-color);
+}

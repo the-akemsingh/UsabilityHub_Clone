@@ -1,0 +1,39 @@
+.header_banner {
+    background-image: url(Assets/asset\ 32.png);
+    background-size: 30vw;
+    background-color: #2294ed;
+    font-family: 'Roboto', sans-serif;
+    padding: var(--padding-inline-section) 0;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-inline-section);
+    margin: 5vh 0 0 0;
+}
+
+.logo img {
+    width: 17vw;
+}
+
+.page-links ul{
+    flex-direction: row;
+    gap: 3vw;
+    list-style: none;
+}
+
+.page-links ul li a {
+    color: black;
+
+}
+
+.nav-toggle {
+    display: none;
+    text-decoration: none;
+    color: #183b56;
+}
